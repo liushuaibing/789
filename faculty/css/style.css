@@ -1,0 +1,174 @@
+header{width:100%; background:#333333;}
+header .max nav{max-width:1000px; margin:0 auto; display:flex; position:relative;}
+header .max nav ul{width:71.5%; display:flex; margin:0 auto;}
+header .max nav ul li{width:12.5%; height:83px; line-height:83px; text-align:center; cursor:pointer;}
+header .max nav ul li:hover{background:#5c5c5c;}
+header .max nav ul li:nth-of-type(3){background:#5c5c5c;}
+header .max nav ul li a{color:white; font-size:12px;}
+header .max nav h1{margin-top:20px;}
+header .max p{color:white; font-size:37px; position:absolute; left:50%; top:20px; width:16%; display:none;}
+header .max span{width:10%; display:block; border:1px solid #666666; font-size:14px; color:white; height:40px; line-height:40px; padding-left:5%; cursor:pointer; position:absolute; right:3%; top:20px; display:none; border-radius:3px;}
+header .max span:hover{background:#666666;}
+header .max span img{position:absolute; right:7%; top:10px; width:25px;}
+@media screen and (max-width:1001px ) {
+	header .max nav ul{display:none;}
+	header .max p{display:block; width:50%; position:absolute; left:43%; top:20px;}
+	header .max span{display:block;}
+	header .max nav h1{margin-left:5%;}
+	header .max span{padding-left:2%; font-size:13px;}
+	header .max span img{position:absolute; right:7%; top:10px;}
+}
+@media screen and (max-width:755px ) {
+	header .max p{position:absolute; left:44%; top:14px; font: 2em simsun;}
+	header .max span{width:100px; height:30px; padding-left:1%; line-height:30px; position:absolute; right:3%; top:18px; font-weight:100;}
+	header .max nav h1{margin-top:10px;}
+	header .max span img{position:absolute; right:7%; top:6px;}
+	header .max span{padding-left:2%; font-size:13px;}
+	
+}
+@media screen and (max-width:480px ) {
+	header .max p{position:absolute; left:45%; top:20px; font:24px simsun;}
+	header .max nav h1 img{width:87%; height:45px;}
+	header .max span{font-size:0; width:27px; height:30px;}
+	
+}
+
+@media screen and (max-width:874px ) {
+	.serve .max ul li .box .character{width:45%;}
+	
+}
+.pull-down{width:100%; background:#333333; display:none; border-top:2px solid #cccccc; border-bottom:2px solid #cccccc;}
+.pull-down ul{max-width:982px; width:100%; display:flex; flex-wrap:wrap;}
+.pull-down ul li{width:11%; height:50px; line-height:50px; margin-right:15px; text-align:center; cursor:pointer; box-sizing:border-box;}
+.pull-down ul:first-of-type li:first-of-type{background:#5c5c5c;}
+.pull-down ul li:hover{background:#5c5c5c;}
+.pull-down ul:first-of-type li:first-of-type a{color:#fa864f;}
+.pull-down ul li:hover a{color:#fa864f;}
+.pull-down ul li a{color:white;}
+.pull-down ul:nth-of-type(2) li:last-of-type{margin:0;}
+.pull-down ul:nth-of-type(1) li:last-of-type{margin:0;}
+@media screen and (max-width:755px) {
+	.pull-down ul{float:none; width:100%;}
+	.pull-down ul li{width:25%; margin:0;}
+	.pull-down ul li:nth-of-type(4){margin:0;}
+}
+@media screen and (max-width:480px ) {
+	.pull-down ul{float:none; width:100%;}
+	.pull-down ul li{width:50%;}
+}
+img{width:100%;}
+section{width:100%; background:#f2f2f2;}
+section .max{max-width:970px; margin:0 auto;}
+section .max h2{width:100%; text-align:center; height:59px; line-height:59px; font-size:29px; padding-top:32px; color:#6e7180;}
+section .max>p{width:100%; text-align:center; line-height:49px; font-size:23px; color:#87888c;}
+section .max .content{width:100%;}
+section .max .content ul{width:100%;}
+section .max .content ul li{width:25%; padding:0 15px; height:800px; float:left; box-sizing:border-box;}
+section .max .content ul li p:first-of-type{width:100%; color:#828187; line-height:25px; text-indent:30px; font-size:12px;}
+section .max .content ul li h4{line-height:30px; color:#8b8a88; font-size:18px; width:100%; font-weight:bold;}
+section .max .content ul li p:last-of-type{width:90%; color:#828187; line-height:25px; font-size:12px;}
+.brief .max .right{width:70%; text-indent:50px; margin-bottom:80px; float:left;}
+.brief .max .right h4{width:100%; color:#fa9634; font-size:18px; font-weight:bold; height:48px; line-height:48px;}
+.brief .max .right p{width:100%; color:black; font-size:15px;line-height:30px; text-indent:75px;}
+@media screen and (max-width:1000px ) {
+	section .max .content ul li{width:33.3333%;}
+}
+@media screen and (max-width:763px ) {
+	section .max .content ul li{width:33.3333%; height:375px;}
+	section .max .content ul li p{display:none;}
+	section .max .content ul li h4{display:none;}
+}
+@media screen and (max-width:460px ) {
+	section .max .content ul li{width:50%; height:330px;}
+	section .max .content ul li p{display:none;}
+	section .max .content ul li h4{display:none;}
+}
+@media screen and (max-width:460px ) {
+	section .max .content ul li{width:50%; height:270px;}
+	section .max .content ul li p{display:none;}
+	section .max .content ul li h4{display:none;}
+}
+@media screen and (max-width:749px ) {
+	.brief .max .left{float:none; width:100%;}	
+	.brief .max .right{float:none; width:100%;}	
+	.brief .max .left ul{border-right:0; margin-left:4%;}
+	.brief .max .left ul li:first-of-type{background:url(../images/Screenshot_6.png) no-repeat 53% 20px; border-bottom:4px solid #FA9634;}
+	.brief .max .left ul li:nth-of-type(2){background:url(../images/Screenshot_1.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(3){background:url(../images/Screenshot_3.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(4){background:url(../images/Screenshot_5.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(5){background:url(../images/Screenshot_7.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(6){background:url(../images/Screenshot_9.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(7){background:url(../images/Screenshot_11.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(8){background:url(../images/Screenshot_13.png) no-repeat 53% 20px;}
+	.brief .max .left ul li:nth-of-type(2):hover{background:url(../images/Screenshot_1.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li:nth-of-type(3):hover{background:url(../images/Screenshot_3.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li:nth-of-type(4):hover{background:url(../images/Screenshot_5.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li:nth-of-type(5):hover{background:url(../images/Screenshot_7.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li:nth-of-type(6):hover{background:url(../images/Screenshot_9.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li:nth-of-type(7):hover{background:url(../images/Screenshot_11.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li:nth-of-type(8):hover{background:url(../images/Screenshot_13.png) no-repeat 53% 20px; border-bottom:4px solid white;}
+	.brief .max .left ul li{float:left; width:33.33333%; text-indent:29%; height:120px; line-height:165px;}
+	.brief .max .left ul li a{font-size:20px;}
+}
+html{
+    font-size:1px;
+}
+footer{
+    background:#333333;
+}
+footer div{
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px 30px 0 30px;
+}
+footer div ul{
+    display:flex;
+    padding-top:53px;
+    flex-flow:wrap;
+}
+footer div ul li{
+    width:25%;
+    height:200px;
+}
+footer div ul li p{
+    color:#fff;
+    font-size:13rem;
+    height:31px;
+    line-height:31px;
+}
+footer div ul li:nth-of-type(1) p:nth-of-type(2){
+    padding-left:70px;
+}
+footer div ul li:nth-of-type(3) p{
+    display: block;
+    float: left;
+}
+footer div ul li:nth-of-type(3) img{
+    cursor:pointer;
+    display: block;
+    float: left;
+    margin-left:5px;
+    padding-top:4px;
+    width:25%;
+}
+@media screen and (max-width: 1000px){
+    footer div ul{
+        padding: 0;
+    }
+    footer div ul li{
+        width:50%;
+        height:auto;
+        margin-top:15px;
+    }
+    footer div ul li:nth-of-type(4) p:nth-of-type(3){
+        padding-left:84px;
+    }
+    footer div{
+        max-width:655px;
+    }
+}
+@media screen and (max-width: 480px){
+    footer div ul li{
+        width:100%;
+    }
+}

@@ -1,0 +1,127 @@
+header{width:100%; background:#333333;}
+header .max nav{max-width:1000px; margin:0 auto; display:flex; position:relative;}
+header .max nav ul{width:71.5%; display:flex; margin:0 auto;}
+header .max nav ul li{width:12.5%; height:83px; line-height:83px; text-align:center; cursor:pointer;}
+header .max nav ul li:hover{background:#5c5c5c;}
+header .max nav ul li:nth-of-type(8){background:#5c5c5c;}
+header .max nav ul li a{color:white; font-size:12px;}
+header .max nav h1{margin-top:20px;}
+header .max p{color:white; font-size:37px; position:absolute; left:50%; top:20px; width:16%; display:none;}
+header .max span{width:10%; display:block; border:1px solid #666666; font-size:14px; color:white; height:40px; line-height:40px; padding-left:5%; cursor:pointer; position:absolute; right:3%; top:20px; display:none; border-radius:3px;}
+header .max span:hover{background:#666666;}
+header .max span img{position:absolute; right:7%; top:10px; width:25px;}
+@media screen and (max-width:1001px ) {
+	header .max nav ul{display:none;}
+	header .max p{display:block; width:50%; position:absolute; left:43%; top:20px;}
+	header .max span{display:block;}
+	header .max nav h1{margin-left:5%;}
+	header .max span{padding-left:2%; font-size:13px;}
+	header .max span img{position:absolute; right:7%; top:10px;}
+}
+@media screen and (max-width:755px ) {
+	header .max p{position:absolute; left:44%; top:14px; font: 2em simsun;}
+	header .max span{width:100px; height:30px; padding-left:1%; line-height:30px; position:absolute; right:3%; top:18px; font-weight:100;}
+	header .max nav h1{margin-top:10px;}
+	header .max span img{position:absolute; right:7%; top:6px;}
+	header .max span{padding-left:2%; font-size:13px;}
+	
+}
+@media screen and (max-width:480px ) {
+	header .max p{position:absolute; left:45%; top:20px; font:24px simsun;}
+	header .max nav h1 img{width:87%; height:45px;}
+	header .max span{font-size:0; width:27px; height:30px;}
+	
+}
+
+@media screen and (max-width:874px ) {
+	.serve .max ul li .box .character{width:45%;}
+	
+}
+.pull-down{width:100%; background:#333333; display:none; border-top:2px solid #cccccc; border-bottom:2px solid #cccccc;}
+.pull-down ul{max-width:982px; width:100%; display:flex; flex-wrap:wrap;}
+.pull-down ul li{width:11%; height:50px; line-height:50px; margin-right:15px; text-align:center; cursor:pointer; box-sizing:border-box;}
+.pull-down ul:first-of-type li:first-of-type{background:#5c5c5c;}
+.pull-down ul li:hover{background:#5c5c5c;}
+.pull-down ul:first-of-type li:first-of-type a{color:#fa864f;}
+.pull-down ul li:hover a{color:#fa864f;}
+.pull-down ul li a{color:white;}
+.pull-down ul:nth-of-type(2) li:last-of-type{margin:0;}
+.pull-down ul:nth-of-type(1) li:last-of-type{margin:0;}
+@media screen and (max-width:755px) {
+	.pull-down ul{float:none; width:100%;}
+	.pull-down ul li{width:25%; margin:0;}
+	.pull-down ul li:nth-of-type(4){margin:0;}
+}
+@media screen and (max-width:480px ) {
+	.pull-down ul{float:none; width:100%;}
+	.pull-down ul li{width:50%;}
+}
+
+html{
+    font-size:1px;
+}
+footer{
+    background:#333333;
+}
+footer div{
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px 30px 0 30px;
+}
+footer div ul{
+    display:flex;
+    padding-top:53px;
+    flex-flow:wrap;
+}
+footer div ul li{
+    width:25%;
+    height:200px;
+}
+footer div ul li p{
+    color:#fff;
+    font-size:13rem;
+    height:31px;
+    line-height:31px;
+}
+footer div ul li:nth-of-type(1) p:nth-of-type(2){
+    padding-left:70px;
+}
+footer div ul li:nth-of-type(3) p{
+    display: block;
+    float: left;
+}
+footer div ul li:nth-of-type(3) img{
+    cursor:pointer;
+    display: block;
+    float: left;
+    margin-left:5px;
+    padding-top:4px;
+}
+@media screen and (max-width: 1000px){
+    footer div ul{
+        padding: 0;
+    }
+    footer div ul li{
+        width:50%;
+        height:auto;
+        margin-top:15px;
+    }
+    footer div ul li:nth-of-type(4) p:nth-of-type(3){
+        padding-left:84px;
+    }
+    footer div{
+        max-width:655px;
+    }
+}
+@media screen and (max-width: 480px){
+    footer div ul li{
+        width:100%;
+    }
+}
+
+section{width:100%;}
+section .max{max-width:866px; margin:0 auto;}
+section .max h5{width:100%; height:53px; line-height:53px; color:#fa9634; font-size:16px; text-align:center; font-weight:bold;}
+section .max h4{width:100%; height:45px; line-height:45px; color:black; font-size:21px; text-align:center; font-weight:bold;}
+section .max p{width:100%; height:30px; line-height:30px; color:black; font-size:14px; text-align:center;}
+section .max img{display:block; margin:0 auto;}

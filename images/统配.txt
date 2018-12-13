@@ -1,0 +1,24 @@
+* {margin: 0; padding: 0;}
+.clearfix:after{height:0; display:block; content:'.'; visibility:hidden;}
+ul,li,dd,dt,dl,ol,h1,h2,h3,h4,h5,h6,form,label,p{display: block;}
+ul {list-style: none;}
+a {text-decoration: none;}
+.ellipsis{white-space:nowrap;/*空白不换行*/overflow:hidden;/*空白不换行*/text-overflow:ellipsis;/*显示省略号*/}
+animate.css
+https://www.swiper.com.cn/中文网
+https://www.runoob.com/css/css-tutorial.html
+https://www.runoob.com/css/css-tutorial.html
+
+理论强大:https://github.com/amfe/article/issues/17?utm_source=caibaojian.com
+简单实用:
+https://www.cnblogs.com/beidan/p/5275379.html
+https://blog.csdn.net/bright2017/article/details/78752403
+https://jingyan.baidu.com/article/c1a3101e46058fde656deb8e.html
+em与rem的区别:
+https://jingyan.baidu.com/article/c1a3101e46058fde656deb8e.html
+http://caibaojian.com/rem-vs-em.html
+
+
+
+
+https://yufish168.github.io/jxjy/

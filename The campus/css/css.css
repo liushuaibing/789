@@ -1,0 +1,302 @@
+/*max 最大 / min最小*/
+html{
+    font-size:1px;
+}
+section{
+    max-width:1027px;
+    padding:120px 15px 80px 15px;
+    margin:0 auto;
+    display:flex;
+    flex-flow:wrap;
+}
+section .left{
+    width:30%;
+}
+section .left ul{
+    border-right:1px solid #bababa;
+
+}
+section .left ul li a{
+    display: block;
+    margin:0 17px 4px 0;
+}
+section .left ul li{
+    height:80px;
+}
+section .left ul li a h2{
+    font-size:22rem;
+    color:#222222;
+    height:75px;
+    float:left;
+    width:62%;
+    line-height:75px;
+}
+
+section .left ul li:nth-of-type(1) a{
+    margin:0 17px 4px 0;
+}
+
+section .left ul li a i{
+    width:38%;
+    height:75px;
+    display: block;
+    float:left;
+}
+
+/*第一个*/
+section .left ul li:nth-of-type(1).normal a i{
+    background:url("../images/img/xsjx_1.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(1).active a i,section .left ul li:nth-of-type(1):hover a i{
+    background:url("../images/hover/xsjx.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(1).active a,section .left ul li:nth-of-type(1):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+/*第二个*/
+section .left ul li:nth-of-type(2).normal a i{
+    background:url("../images/img/hy_1.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(2).active a i,section .left ul li:nth-of-type(2):hover a i{
+    background:url("../images/hover/hy.gif")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(2).active a,section .left ul li:nth-of-type(2):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+/*第三个*/
+section .left ul li:nth-of-type(3).normal a i{
+    background:url("../images/img/ydh_1.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(3).active a i,section .left ul li:nth-of-type(3):hover a i{
+    background:url("../images/hover/ydh.gif")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(3).active a,section .left ul li:nth-of-type(3):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+/*第四个*/
+section .left ul li:nth-of-type(4).normal a i{
+    background:url("../images/img/dxs_.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(4).active a i,section .left ul li:nth-of-type(4):hover a i{
+    background:url("../images/hover/dxs.gif")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(4).active a,section .left ul li:nth-of-type(4):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+
+/*第五个*/
+section .left ul li:nth-of-type(5).normal a i{
+    background:url("../images/img/hj_1.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(5).active a i,section .left ul li:nth-of-type(5):hover a i{
+    background:url("../images/hover/hj.gif")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(5).active a,section .left ul li:nth-of-type(5):hover a{
+    border-bottom:4px solid #fa9634;
+}
+
+/*第六个*/
+section .left ul li:nth-of-type(6).normal a i{
+    background:url("../images/img/sdwh_1.gif")no-repeat 50% 50%;
+}
+section .left ul li:nth-of-type(6).active a i,section .left ul li:nth-of-type(6):hover a i{
+    background:url("../images/hover/sdwh.gif")no-repeat 50% 50%;
+}
+
+section .left ul li:nth-of-type(6).active a,section .left ul li:nth-of-type(6):hover a{
+    border-bottom:4px solid #fa9634;
+}
+/**********************以上是左边*************************************/
+section .right{
+    width:64%;
+    padding-left:50px;
+}
+section .right p{
+    font-size:15rem;
+    line-height:30px;
+    color:#000;/*33*/
+    text-indent:33px;
+    margin:23px 0 23px 0;
+}
+section .right h3{
+    color:#fa9634;
+    font-size:18px;
+    margin-top: 50px;
+}
+
+.feature{
+    display: none;
+}
+.active{
+
+}
+@media screen and (max-width: 770px){
+    section{
+        padding-top:0;
+    }
+    section .left{
+        width:100%;
+    }
+    section .left ul{
+        border:0;
+    }
+    section .left ul li{
+        width:33%;
+        height:155px;
+        float:left;
+    }
+    section .left ul li a i{
+        float:none;
+        margin:0 auto;
+    }
+    section .left ul li a h2{
+        text-align: center;
+        width:100%;
+    }
+    section .right{
+        width:100%;
+        padding:0;
+    }
+}
+#cfo{
+    display: none;
+}
+@media screen and (max-width: 480px){
+    section .left ul li a h2{
+        font-size:14rem;
+    }
+    section{
+        padding:40px 15px 80px 15px;
+    }
+}
+@media screen and (max-width: 1015px){
+    .c{
+        display: none;
+    }
+    #cfo{
+        display:block;
+    }
+}
+
+
+html{
+    font-size:1px;
+}
+footer{
+    background:#333333;
+}
+footer div{
+    max-width:1000px;
+    margin:0 auto;
+    padding:20px 30px 0 30px;
+}
+footer div ul{
+    display:flex;
+    padding-top:53px;
+    flex-flow:wrap;
+}
+footer div ul li{
+    width:25%;
+    height:200px;
+}
+footer div ul li p{
+    color:#fff;
+    font-size:13rem;
+    height:31px;
+    line-height:31px;
+}
+footer div ul li:nth-of-type(1) p:nth-of-type(2){
+    padding-left:70px;
+}
+footer div ul li:nth-of-type(3) p{
+    display: block;
+    float: left;
+}
+footer div ul li:nth-of-type(3) img{
+    cursor:pointer;
+    display: block;
+    float: left;
+    margin-left:5px;
+    padding-top:4px;
+}
+@media screen and (max-width: 1000px){
+    footer div ul{
+        padding: 0;
+    }
+    footer div ul li{
+        width:50%;
+        height:auto;
+        margin-top:15px;
+    }
+    footer div ul li:nth-of-type(4) p:nth-of-type(3){
+        padding-left:84px;
+    }
+    footer div{
+        max-width:655px;
+    }
+}
+@media screen and (max-width: 480px){
+    footer div ul li{
+        width:100%;
+    }
+}
+header{width:100%; background:#333333;}
+a{font-size:12px;}
+header .max nav{max-width:1000px; margin:0 auto; display:flex; position:relative;}
+header .max nav ul{width:71.5%; display:flex; margin:0 auto;}
+header .max nav ul li{width:12.5%; height:83px; line-height:83px; text-align:center; cursor:pointer;}
+header .max nav ul li:hover{background:#5c5c5c;}
+header .max nav ul li:first-of-type{width:65px; background:#5c5c5c;}
+header .max nav ul li a{color:white; font-size:12px;}
+header .max nav h1{margin-top:20px;}
+header .max p{color:white; font-size:37px; position:absolute; left:50%; top:20px; width:16%; display:none;}
+header .max span{width:10%; display:block; border:1px solid #666666; font-size:14px; color:white; height:40px; line-height:40px; padding-left:5%; cursor:pointer; position:absolute; right:3%; top:28px; display:none; border-radius:3px;}
+header .max span:hover{background:#666666;}
+header .max span img{position:absolute; right:7%; top:10px; width:25px;}
+@media screen and (max-width:1001px ) {
+	header .max nav ul{display:none;}
+	header .max p{display:block; width:50%; position:absolute; left:43%; top:20px;}
+	header .max span{display:block;}
+	header .max nav h1{margin-left:5%;}
+	header .max span{padding-left:2%; font-size:13px;}
+	header .max span img{position:absolute; right:7%; top:10px;}
+}
+@media screen and (max-width:755px ) {
+	header .max p{position:absolute; left:44%; top:14px; font: 2em simsun;}
+	header .max span{width:100px; height:30px; padding-left:1%; line-height:30px; position:absolute; right:3%; top:30px; font-weight:100;}
+	header .max nav h1{margin-top:10px;}
+	header .max span img{position:absolute; right:7%; top:6px;}
+	header .max span{padding-left:1%; font-size:13px;}
+	
+}
+@media screen and (max-width:480px ) {
+	header .max p{position:absolute; left:48%; top:32px; font:24px simsun;}
+	header .max nav h1 img{width:87%; height:45px;}
+	header .max span{font-size:0; width:27px; height:30px;}
+	
+}
+
+
+@media screen and (max-width:874px ) {
+	.serve .max ul li .box .character{width:45%;}
+	
+}
+.pull-down{width:100%; background:#333333; display:none; border-top:2px solid #cccccc; border-bottom:2px solid #cccccc;}
+.pull-down ul{max-width:982px; width:100%; display:flex; flex-wrap:wrap;}
+.pull-down ul li{width:11%; height:50px; line-height:50px; margin-right:15px; text-align:center; cursor:pointer; box-sizing:border-box;}
+.pull-down ul:first-of-type li:first-of-type{background:#5c5c5c;}
+.pull-down ul li:hover{background:#5c5c5c;}
+.pull-down ul:first-of-type li:first-of-type a{color:#fa864f;}
+.pull-down ul li:hover a{color:#fa864f;}
+.pull-down ul li a{color:white;}
+.pull-down ul:nth-of-type(2) li:last-of-type{margin:0;}
+.pull-down ul:nth-of-type(1) li:last-of-type{margin:0;}
